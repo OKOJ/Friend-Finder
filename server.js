@@ -10,7 +10,7 @@ app.use(express.json());
 
 
 app.get("/", function(req, res) {
-  res.json(path.join(__dirname, "public/index.html"));
+  res.json(path.join(__dirname, "public/home.html"));
 });
 
 
