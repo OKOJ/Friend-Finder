@@ -15,7 +15,40 @@ module.exports = function(app){
       });
 
     app.post("/api/friends", function(req, res){
-        
+
+
     })
 
 }
+
+
+/*var bestMatch = {
+
+    name:"",
+    photo:"",
+    friendsDifference: Infinity
+}
+
+var userData = req.body;
+var userScores = userData.userScores;
+
+var totalDifference;
+
+for(var i= 0; i<friends.length; i++){
+       //friends.length from friends.js
+
+       var currentFriend = friends[i];
+       totalDifference = 0;
+
+       for(var j= 0; j<currentFriend.scores.length; j++){
+           var currentFriendScore = currentFriend.score[j];
+           var currentFriend = userScore[j];
+
+           totalDifference += Math.abc(parseInt(currentUserScore)- parseInt(currentFriendScore));
+       }
+
+}
+if (totalDifference <= bestMatch.friendsDifference){
+    bestMatch.name = currentFriend.name
+}
+friends.push(userData)*/
